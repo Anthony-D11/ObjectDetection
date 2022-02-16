@@ -33,7 +33,7 @@ class Detector:
         self.colorList = np.random.uniform(low = 0, high = 255, size = (len(self.classesList), 3))
 
 
-        #print(self.classesList)
+        print(self.classesList)
 
     def onVideo(self):
         cap = cv2.VideoCapture(self.videoPath)
